@@ -1,5 +1,10 @@
 <?php declare(strict_types=1);
 
+// JUST REMEMBER
+// ARRAY_SEARCH DOESNT KNOW
+// THAT YOU ARRAY IS SORTED
+
+
 function untilEspecificSize(
     array &$array,
     int $size
