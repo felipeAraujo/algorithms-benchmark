@@ -4,7 +4,6 @@
 // ARRAY_SEARCH DOESNT KNOW
 // THAT YOU ARRAY IS SORTED
 
-
 function untilEspecificSize(
     array &$array,
     int $size
