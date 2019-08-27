@@ -31,7 +31,7 @@ $t = microtime(true);
 $result = sequentialSearch($randomArray, $numberToSearch);
 $sequentialTime = (microtime(true) - $t);
 
-$output .= 'Number to find: ' . $numberToSearch . PHP_EOL;
+$output = 'Number to find: ' . $numberToSearch . PHP_EOL;
 $output .= 'Result found in position: ' . $result . PHP_EOL;
 $output .= 'Binary Search time taken: ' . $binaryTime . PHP_EOL;
 $output .= 'Default Search time taken: ' . $defaultTime . PHP_EOL;
